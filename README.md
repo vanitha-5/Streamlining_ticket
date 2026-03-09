@@ -1,6 +1,29 @@
 # Streamlining_ticket
-This project, “Streamlining Ticket Assignment for Efficient Support Operations,” aims to improve the efficiency of handling support requests in an organization. Many companies receive a large number of support tickets every day, and manually assigning these tickets to the correct team can lead to delays and errors. To overcome this problem, this project implements an automated ticket assignment system.
-The system is developed using ServiceNow, which provides tools for managing users, roles, groups, and workflows. In this project, users, groups, and roles are created to represent different support teams and responsibilities. A table named Operations Related is used to store ticket details such as issue type and ticket information.
-Using Flow Designer, automation flows are created to automatically assign tickets to the appropriate support group based on the issue selected by the user. For example, issues related to certificates are assigned to the Certificates group, while platform-related issues such as login problems or 404 errors are assigned to the Platform group. Access Control (ACL) rules are also implemented to ensure proper security and control over the system.
-This automated process helps reduce manual effort, improves response time, and ensures that support tickets are handled by the correct team. Overall, the project demonstrates how automation in ServiceNow can enhance support operations and improve customer satisfaction.
+# Project Title
+Streamlining Ticket Assignment for Efficient Support Operations
+# Project Description
+This project focuses on improving the efficiency of handling support tickets in an organization. In many companies, support teams receive a large number of requests from users. Manually assigning these tickets to the correct team can take time and may cause delays in resolving issues.
+To solve this problem, this project implements an automated ticket assignment system using ServiceNow. The system automatically routes support tickets to the appropriate team based on the issue type. This helps reduce manual effort, improve response time, and ensure faster issue resolution.
+# Features
+* User creation and management
+* Group creation for different support teams
+* Role-based access control
+* Ticket information storage using tables
+* Automatic ticket assignment using flow automation
+* Secure access using Access Control (ACL)
+# Tools Used
+* ServiceNow
+* Flow Designer
+* Access Control (ACL)
+* ServiceNow Tables / Database
+# Steps Involved
+Creating users in the system.
+Creating groups for different support teams.
+Creating roles to manage access permissions.
+Creating a table to store ticket details.
+Assigning users and roles to groups.
+Implementing access control for security.
+Creating automation flows using Flow Designer to assign tickets to the appropriate groups.
+# Conclusion
+This project successfully demonstrates how ticket assignment can be automated using ServiceNow. By implementing automated workflows, the system reduces manual effort and ensures that support tickets are assigned to the correct team quickly. This improves efficiency in support operations and helps provide faster solutions to users.
 
