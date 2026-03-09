@@ -1,1 +1,2 @@
 # Streamlining_ticket
+This project, “Streamlining Ticket Assignment for Efficient Support Operations,” focuses on automating the process of assigning support tickets to the appropriate teams. The system is developed using ServiceNow. It allows organizations to create users, groups, and roles, and manage support requests efficiently. Using automation flows, the system automatically routes tickets to the correct support group based on the issue type. This helps reduce manual effort, improve response time, and ensure faster resolution of customer issues.
